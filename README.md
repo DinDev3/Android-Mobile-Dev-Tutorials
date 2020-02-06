@@ -3,3 +3,7 @@ This repository contains the tutorials that I completed in my 2nd year at IIT fo
 <br/>
 <br/>
 The tutorials were based on [Google Codelabs - Android Developer Fundamentals Course](https://codelabs.developers.google.com/android-training/)
+<br/>
+
+---
+1. [Week1](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week1)
