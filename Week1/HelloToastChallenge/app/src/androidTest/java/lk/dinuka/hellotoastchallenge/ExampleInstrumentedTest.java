@@ -1,4 +1,4 @@
-package lk.dinuka.hellotoast;
+package lk.dinuka.hellotoastchallenge;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("lk.dinuka.hellotoast", appContext.getPackageName());
+        assertEquals("lk.dinuka.hellotoastchallenge", appContext.getPackageName());
     }
 }

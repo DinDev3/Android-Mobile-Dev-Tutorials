@@ -1,4 +1,4 @@
-package lk.dinuka.hellotoast;
+package lk.dinuka.hellotoastchallenge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
