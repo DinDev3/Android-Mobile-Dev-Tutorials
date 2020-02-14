@@ -11,6 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,6 +53,24 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+    public void displayToast(String message) {
+        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+    }
+
+    public void showDonutOrder(View view) {      // Show a message that the donut image was clicked
+        displayToast(getString(R.string.donut_order_message));
+    }
+
+    public void showIceCreamOrder(View view) {      // Show a message that the ice cream sandwich image was clicked
+        displayToast(getString(R.string.ice_cream_order_message));
+    }
+
+    public void showFroyoOrder(View view) {      // Show a message that the froyo image was clicked
+        displayToast(getString(R.string.froyo_order_message));
+    }
+
 }
 
 
