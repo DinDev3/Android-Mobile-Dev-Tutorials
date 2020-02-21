@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dog Project</string>
+    <string name="dogimage_description">DogImage</string>
+    <string name="change_image_button_label">Change Image</string>
 </resources>
