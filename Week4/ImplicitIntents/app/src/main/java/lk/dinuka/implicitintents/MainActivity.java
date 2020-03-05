@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         ShareCompat.IntentBuilder
                 .from(this)
                 .setType(mimeType)
-                .setChooserTitle("Share this text with: ")
+                .setChooserTitle(getString(R.string.share_text))
                 .setText(txt)
                 .startChooser();
     }
