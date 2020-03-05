@@ -1,6 +1,7 @@
 package lk.dinuka.implicitintents;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ShareCompat;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText mWebsiteEditText;
     private EditText mLocationEditText;
+    private EditText mShareTextEditText;
 
 
     @Override
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         mWebsiteEditText = findViewById(R.id.website_edittext);
         mLocationEditText = findViewById(R.id.location_edittext);
+        mShareTextEditText = findViewById(R.id.share_edittext);
     }
 
     public void openWebsite(View view) {
@@ -51,5 +54,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void shareText(View view) {
+        String txt = mShareTextEditText.getText().toString();
+
+        String mimeType = "text/plain";
+
+        ShareCompat.IntentBuilder
+                .from(this)
+                .setType(mimeType)
+                .setChooserTitle("Share this text with: ")
+                .setText(txt)
+                .startChooser();
     }
 }
