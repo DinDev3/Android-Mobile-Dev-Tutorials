@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IBM Text to Speech</string>
+    <string name="speak_button_text">Speak</string>
+</resources>
