@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, OrderActivity.class);
 //                intent.putExtra(EXTRA_MESSAGE,mOrderMessage);       // to pass one message to the Order Activity
                 intent.putExtra(EXTRA_MESSAGE, mAllMessages);       // to pass one message to the Order Activity
-//                intent.putStringArrayListExtra("EXTRA_MESSAGE", mAllOrderMessages);
 
                 startActivity(intent);
             }

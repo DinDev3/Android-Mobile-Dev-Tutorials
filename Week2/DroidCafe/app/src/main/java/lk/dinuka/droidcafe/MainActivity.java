@@ -14,11 +14,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
+    // Tag for the intent extra.
     public static final String EXTRA_MESSAGE = "com.example.android.droidcafe.extra.MESSAGE";
+//    public static final List EXTRA_MESSAGE = "com.example.android.droidcafe.extra.MESSAGE";
+    // initializing the final variable that can pass into the OrderActivity?
 
+    // The order message, displayed in the Toast and sent to the new Activity
     private String mOrderMessage;
+//    private ArrayList<String> mAllOrderMessages = new ArrayList<String>();
 
 
     @Override
@@ -35,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
                 Intent intent = new Intent(MainActivity.this, OrderActivity.class);
-                intent.putExtra(EXTRA_MESSAGE,mOrderMessage);
+                intent.putExtra(EXTRA_MESSAGE,mOrderMessage);       // to pass one message to the Order Activity
+//                intent.putStringArrayListExtra("EXTRA_MESSAGE", mAllOrderMessages);       // to pass one message to the Order Activity
+
                 startActivity(intent);
             }
         });
@@ -70,16 +80,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void showDonutOrder(View view) {      // Show a message that the donut image was clicked
         mOrderMessage = getString(R.string.donut_order_message);
+//        mAllOrderMessages.add(mOrderMessage);
         displayToast(getString(R.string.donut_order_message));
     }
 
     public void showIceCreamOrder(View view) {      // Show a message that the ice cream sandwich image was clicked
         mOrderMessage = getString(R.string.ice_cream_order_message);
+//        mAllOrderMessages.add(mOrderMessage);
         displayToast(getString(R.string.ice_cream_order_message));
     }
 
     public void showFroyoOrder(View view) {      // Show a message that the froyo image was clicked
         mOrderMessage = getString(R.string.froyo_order_message);
+//        mAllOrderMessages.add(mOrderMessage);
         displayToast(getString(R.string.froyo_order_message));
     }
 
