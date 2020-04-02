@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">EmployeeDBApp</string>
+    <string name="enter_employee_details_textview">Enter Employee Details</string>
+    <string name="employee_id_hint">Enter Employee ID</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="enter_address_hint">Enter Address</string>
+    <string name="enter_age_hint">Enter Age</string>
+    <string name="add_button_text">Add</string>
+    <string name="enter_position_hint">Enter Position</string>
 </resources>

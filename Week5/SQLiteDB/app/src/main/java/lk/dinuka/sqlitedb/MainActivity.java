@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         values.put(TIME, System.currentTimeMillis());
         values.put(TITLE, string);
         db.insertOrThrow(TABLE_NAME, null, values);
+
+
     }
 
     public Cursor getEvents(){
