@@ -1,0 +1,4 @@
+#Thu Apr 09 10:22:12 IST 2020
+base.0=C\:\\Users\\Dell XPS15\\Documents\\IIT Work\\L5\\Mobile Dev\\Android-Mobile-Dev-Tutorials\\Week8\\HelloSharedPrefs\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
