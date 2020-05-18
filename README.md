@@ -10,3 +10,7 @@ The tutorials were based on [Google Codelabs - Android Developer Fundamentals Co
 2. [Week2](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week2)
 3. [Week3](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week3)
 4. [Week4](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week4)
+5. [Week5](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week5)
+6. [Week6](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week6)
+7. [Week7](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week7)
+8. [Week8](https://github.com/DinDev3/Android-Mobile-Dev-Tutorials/tree/master/Week8)
